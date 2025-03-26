@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Tournoi RL</h1>
+    <p id="description">Inscriptions</p>
+    <form id="survey-form" required>
+      <fieldset>
+      <label id="name-label">Nom Prénom :<input type="text" id="name" required placeholder="Jean Dormesson">
+      </label>
+      <label id="email-label">E-mail :<input type="email" id="email" required placeholder="jeandormesson@gmail.com">
+      </label>
+      <label id="number-label">Ton age :<input type="number" id="number" required min="14" max="120" placeholder="25">
+      </label>
+  </fieldset>
+  <fieldset class="bord">
+      <select id="dropdown">
+        <option value="">Ta voiture</option>
+        <option value="1">Fennec (goatesque)</option>
+        <option value="2">Octane</option>
+        <option value="3">Dominus</option>
+        <option value="4">Autre</option>
+        </select>
+  </fieldset>
+  <fieldset>
+    <label class="marge">Ta fréquence de jeu :</label>
+        <label for="rl"><input type="radio" value="0" name="rl" class="inline"/>Joueur Régulier</label>
+        
+        <label><input type="radio" value="1" name="rl" class="inline">Joueur Occasionel</label>
+        </fieldset>
+        <fieldset class="bord">
+          <label class="marge">Ton rang actuel :</label>
+        <label><input type="checkbox" value="1" class="inline" >Champion 3</label>
+        <label><input type="checkbox" value="2" class="inline" >Grand Champion 1</label>
+        <label><input type="checkbox" value="3" class="inline" >Grand Champion 2</label>
+        <label><input type="checkbox" value="4" class="inline" >Grand Champion 3</label>
+        <label><input type="checkbox" value="5" class="inline" >SuperSonicLegend</label>
+        </fieldset>
+<fieldset class="bottom">
+        <textarea rows="3" columns="30" placeholder="Ton style de jeu: Mecanique, Teamplay, Rotation"></textarea>
+        </fieldset>
+        <fieldset class="bottom">
+        <input type="submit" id="submit">
+        </fieldset>
+      
+
+
+    </form>
+
+  </body>
+
+</html>
