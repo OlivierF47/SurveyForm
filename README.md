@@ -34,4 +34,3 @@ Le formulaire doit être centré et lisible sur tous les types d'appareils.
 ## ✅ Critères de validation FCC
 
 Le formulaire doit passer les 17 tests imposés par la suite de tests de FreeCodeCamp.
-Le formulaire doit passer les 17 tests imposés par la suite de tests de FreeCodeCamp.
